@@ -1,8 +1,7 @@
-//四角形（正方形）の面積を求める（辺＊辺）
+//四角形の面積を求める（辺＊辺）
 const square = (squareSide) => {
-  console.log(squareSide * squareSide)
+  return squareSide * squareSide;
 }
-//関数を呼び出し、引数として面積を渡す
-square(10);
 
-
+//関数を呼び出し、戻り値を出力する
+console.log(square(10));
